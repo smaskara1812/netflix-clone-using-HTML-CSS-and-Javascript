@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <div>
+                <button class="language-btn"> ENGLISH <img src="images/down-icon.png"></button>
+                <button>SIGN IN</button>
+            </div>
+        </nav>
+        <div class="header-content">
+            <h1>Unlimited movies, TV shows and more.</h1>
+            <h3>Watch anywhere. Cancel anytime.</h3>
+            <p>Ready to watch? Enter to email to crete or restart your membership.</p>
+            <div class="signin">
+                <div class="email-signup">
+                    <input type="email" placeholder="Email Address" required>
+                </div>
+                <button type="submit">Get Started</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="top-10">
+        <div class="headtop10">
+        <h2>Trending Now</h2>
+        <button class="language-bttn"> India <img src="images/down-icon.png"></button>
+        <button class="language-bttn"> Movies <img src="images/down-icon.png"></button>
+        </div>
+        <div class="top-10-content-wrapper">
+            <button class="scroll-btn" id="scroll-left-btn" style="display: none;"><</button>
+        <div class="top-10-content" id="scroll-container">
+            <div class="show-card">
+                <img src="images/phir aayi hassena.webp" class="show-image">
+
+
+            </div>
+            <div class="show-card">
+                <img src="images/haseena dilruba.webp" class="show-image">
+
+
+            </div>
+            <div class="show-card">
+                <img src="images/maharaj.webp" class="show-image">
+
+
+            </div>
+            <div class="show-card">
+                <img src="images/indian 2.webp" class="show-image">
+
+
+            </div>
+            <div class="show-card">
+                <img src="images/intern.webp" class="show-image">
+
+
+            </div>
+            <div class="show-card">
+                <img src="images/kalki.webp" class="show-image">
+
+
+            </div>
+            <div class="show-card">
+                <img src="images/dungeuns and dragons.webp" class="show-image">
+
+
+            </div>
+            <div class="show-card">
+                <img src="images/maharaja.webp" class="show-image">
+
+
+            </div>
+            <div class="show-card">
+                <img src="images/shazam.webp" class="show-image">
+
+
+            </div>
+            <div class="show-card">
+                <img src="images/the union.webp" class="show-image">
+
+</div>
+<button class="scroll-btn" id="scroll-right-btn">></button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="features">
+        <div class="row">
+            <div class="textcol">
+                <h2>Enjoy on your TV.</h2>
+                <p>Watch on smart TV, PlayStation, Xbox, Chromecast, Apple TV, Blue Ray players and more.</p>
+            </div>
+            <div class="imgcol">
+                <img src="images/feature-1.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="imgcol">
+                <img src="images/feature-2.png">
+            </div>
+            <div class="textcol">
+                <h2>Download your shows to watch offline.</h2>
+                <p>Save your favourites easily and always have something to watch.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="textcol">
+                <h2>Watch everywhere.</h2>
+                <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+            </div>
+            <div class="imgcol">
+                <img src="images/feature-3.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="imgcol">
+                <img src="images/feature-4.png">
+            </div>
+            <div class="textcol">
+                <h2>Create profiles for children.</h2>
+                <p>Send children on adventures with their favourite characters in a space made just for them-free
+                    with
+                    your membership.</p>
+            </div>
+        </div>
+    </div>
+    <div class="faq">
+        <h2>Frequenty Asked Questions</h2>
+        <ul class="accordian">
+            <li>
+                <input type="checkbox" name="accordian" id="first" value="1">
+                <label for="first">What is Netflix?</label>
+                <div class="content">
+                    <p>Netflix is a streaming service that offers a wide variety of award-winning TV programmes,
+                        films,
+                        anime, documentaries and more on thousands of internet-connected devices.
+
+                        You can watch as much as you want, whenever you want all for one low monthly price. There's
+                        always something new to discover, and new TV programmes and films are added every week!
+                    </p>
+                </div>
+            </li>
+            <li>
+                <input type="checkbox" name="accordian" id="second" value="1">
+                <label for="second">How much does Netflix cost?</label>
+                <div class="content">
+                    <p>Watch Netflix on your smartphone, tablet, smart TV, laptop or streaming device, all for one
+                        fixed
+                        monthly fee.
+                        Plans range from US$6.99 to US$22.99 a month (pre-tax). No extra costs, no contracts.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <input type="checkbox" name="accordian" id="third" value="1">
+                <label for="third">Where can i watch?</label>
+                <div class="content">
+                    <p>Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at
+                        netflix.com from your personal computer or on any internet-connected device that offers the
+                        Netflix app, including smart TVs, smartphones, tablets, streaming media players and game
+                        consoles.
+
+                        You can also download your favourite programmes with the iOS or Android app. Use downloads
+                        to
+                        watch while you're on the go and without an internet connection. Take Netflix with you
+                        anywhere.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <input type="checkbox" name="accordian" id="fourth" value="1">
+                <label for="fourth">How do I cancel?</label>
+                <div class="content">
+                    <p>Netflix is flexible. There are no annoying contracts and no commitments. You can easily
+                        cancel
+                        your account online in two clicks. There are no cancellation fees start or stop your account
+                        at
+                        any time.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <input type="checkbox" name="accordian" id="fifth" value="1">
+                <label for="fifth">What can i watch on Netflix?</label>
+                <div class="content">
+                    <p>Netflix has an extensive library of feature films, documentaries, TV programmes, anime,
+                        award-winning Netflix originals, and more. Watch as much as you want, any time you want.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <input type="checkbox" name="accordian" id="sixth" value="1">
+                <label for="sixth">Is Netflix good for kids?</label>
+                <div class="content">
+                    <p>The Netflix Children's experience is included in your membership to give parents control
+                        while
+                        children enjoy family-friendly TV programmes and films in their own space.
+
+                        Children's profiles come with PIN-protected parental controls that let you restrict the
+                        maturity
+                        rating of content children can watch and block specific titles you don't want children to
+                        see.
+                    </p>
+                </div>
+            </li>
+        </ul>
+        <small>Ready to watch? Enter to email to crete or restart your membership.</small>
+        <form class="email-signup">
+            <input type="email" placeholder="Email Address" required>
+            <button type="submit">Get Started</button>
+        </form>
+    </div>
+    <div class="footer">
+        <h2>Questions? Call 000-800-919-1694</h2>
+        <div class="row">
+            <div class="column">
+                <a href="#">FAQ</a>
+                <a href="#">Investor relations</a>
+                <a href="#">privacy</a>
+                <a href="#">Speed test</a>
+            </div>
+            <div class="column">
+                <a href="#">Help Centre</a>
+                <a href="#">Jobs</a>
+                <a href="#">Cookie prefrences</a>
+                <a href="#">legal notices</a>
+            </div>
+            <div class="column">
+                <a href="#">Account</a>
+                <a href="#">Ways to Watch</a>
+                <a href="#">Corporate information</a>
+                <a href="#">Only on Netflix</a>
+            </div>
+            <div class="column">
+                <a href="#">Media Centre</a>
+                <a href="#">Terms Of Use</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+        <button class="language-btn"> ENGLISH <img src="images/down-icon.png"></button>
+        <p class="copyright">Netflix India</p>
+    </div>
+
+
+
+    <script src="s.js"></script>
+</body>
+
+</html>
